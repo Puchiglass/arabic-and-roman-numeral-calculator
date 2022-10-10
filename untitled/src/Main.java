@@ -2,13 +2,13 @@ public class Main {
     public static void main(String[] args) {
         java.util.Scanner in = new java.util.Scanner(System.in);
         String str = in.nextLine();
-
-        if(str.length() > 5) System.err.println("throws Exception");
-        else System.out.println(calc(str));
+        System.out.println(calc(str));
     }
 
-    public static String calc(String str){
+    public static String calc(String str{
         String[] arr = str.split(" ");
+        if(arr.length > 3) System.err.println("throws Exception");
+
         int a, b, result = 0;
 
         if(isArab(arr[0].charAt(0)) && isArab(arr[2].charAt(0))){
